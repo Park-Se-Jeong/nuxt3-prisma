@@ -1,4 +1,10 @@
 
+<template>
+  <div>
+    <v-btn @click="submit">테스트 호출</v-btn>
+    <!-- {{ result }} -->
+  </div>
+</template>
 
 <script setup lang="ts">
 const appConfig = useAppConfig()
@@ -20,10 +26,5 @@ async function submit() {
 
 
 </script>
-<template>
-  <div>
-    <v-btn @click="submit">테스트 호출</v-btn>
-    <!-- {{ result }} -->
-  </div>
-</template>
+
 <style scoped></style>
